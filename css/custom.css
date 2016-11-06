@@ -1,0 +1,353 @@
+body{
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+/********************/
+/*-----CABECERA-----*/
+/********************/
+#cabecera{
+    width: 1020px;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    z-index: 100;
+    margin-bottom: 5%;
+}
+
+/*-----LOGO-----*/
+#logo a{
+    text-align: center;
+    width: 222px;
+    height: 107px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:8px;
+    left: 42%;
+    background: url(../img/logo-costeno.png) no-repeat;
+    text-indent: -99999px;
+    z-index: 50;
+    /*transition: transform .3s ease-out;
+    -webkit-transition: -webkit-transform .3s ease-out; 
+    -moz-transition: -moz-transform .3s ease-out; 
+    -o-transition: -o-transform .3s ease-out; 
+    -ms-transition: -ms-transform .3s ease-out; */
+}
+/*
+#logo a:hover{
+    transform:scale(1.011);
+    -webkit-transform:scale(1.011);
+    -moz-transform:scale(1.011);
+    -o-transform:scale(1.011);
+    -ms-transform:scale(1.011);
+}*/
+
+/*-----MENU-----*/
+#menu{
+    width: 80%;
+    height: 75px;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 40;
+    zoom: 1;
+}
+
+/*IZQ*/
+#menu ul.izq{
+    width: 510px;
+    height: 51px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    background: url(../img/fondo-menu-izq.png) no-repeat;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -o-border-radius: 14px;
+    -ms-border-radius: 14px;
+    border-radius: 14px;
+    /*-webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 5px 6px rgba(0, 0, 0, .25);
+    -o-box-shadow: 0 5px 6px rgba(0, 0, 0, .25);
+    -ms-box-shadow: 0 5px 6px rgba(0, 0, 0, .25);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, .25);*/
+    behavior: url(css/PIE.htc);
+}
+
+#menu ul.izq li{
+    height: 41px;
+    display: block;
+    float: left;
+    margin: 0;
+    padding:0;
+    position: relative;
+}
+
+#menu ul.izq li#primero2{
+    -webkit-border-radius: 14px 0 0 14px;
+    -moz-border-radius: 14px 0 0 14px;
+    -o-border-radius: 14px 0 0 14px;
+    -ms-border-radius: 14px 0 0 14px;
+    border-radius: 14px 0 0 14px;
+    -webkit-transition:background .5s;
+    -moz-transition:background .5s;
+    -o-transition:background .5s;
+    -ms-transition:background .5s;
+    transition:background .5s;
+    behavior: url(css/PIE.htc);
+}
+
+#menu ul.izq li a{
+    height: 26px;
+    display: block;
+    font-family: 'museo_slab700';
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px 24px 0 24px;
+    background: none;
+    -webkit-transition:background .5s, color .5s;
+    -moz-transition:background .5s, color .5s;
+    -o-transition:background .5s, color .5s;
+    -ms-transition:background .5s, color .5s;
+    transition:background .5s, color .5s;
+}
+
+#menu ul.izq li a#primero{
+    /*background: url(../img/fondo-primero.png) no-repeat;*/
+    -webkit-border-radius: 14px 0 0 14px;
+    -moz-border-radius: 14px 0 0 14px;
+    -o-border-radius: 14px 0 0 14px;
+    -ms-border-radius: 14px 0 0 14px;
+    border-radius: 14px 0 0 14px;
+    -webkit-transition:background .5s;
+    -moz-transition:background .5s;
+    -o-transition:background .5s;
+    -ms-transition:background .5s;
+    transition:background .5s;
+    behavior: url(css/PIE.htc);
+}
+
+/*DER*/
+#menu ul.der{
+    width: 510px;
+    height: 51px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: -11px;
+    right: 0;
+    background: url(../img/fondo-menu-der.png) no-repeat;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -o-border-radius: 14px;
+    -ms-border-radius: 14px;
+    border-radius: 14px;
+    /*-webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 5px 6px rgba(0, 0, 0, .25);
+    -o-box-shadow: 0 5px 6px rgba(0, 0, 0, .25);
+    -ms-box-shadow: 0 5px 6px rgba(0, 0, 0, .25);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, .25);*/
+    behavior: url(css/PIE.htc);
+}
+
+#menu ul.der li{
+    min-width: 135px;
+    height: 41px;
+    display: block;
+    float: right;
+    margin: 0;
+    padding:0;
+    position: relative;
+}
+
+#menu ul.der li#ultimo2{
+    -webkit-border-radius: 0 14px 14px 0;
+    -moz-border-radius: 0 14px 14px 0;
+    -o-border-radius: 0 14px 14px 0;
+    -ms-border-radius: 0 14px 14px 0;
+    border-radius: 0 14px 14px 0;
+    -webkit-transition:background .5s;
+    -moz-transition:background .5s;
+    -o-transition:background .5s;
+    -ms-transition:background .5s;
+    transition:background .5s;
+    behavior: url(css/PIE.htc);
+}
+
+#menu ul.der li a{
+    height: 26px;
+    display: block;
+    font-family: 'museo_slab700';
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px 24px 0 24px;
+    background:none;
+    -webkit-transition:background .5s, color .5s;
+    -moz-transition:background .5s, color .5s;
+    -o-transition:background .5s, color .5s;
+    -ms-transition:background .5s, color .5s;
+    transition:background .5s, color .5s;
+}
+
+#menu ul li a#ultimo{
+    /*background: url(../img/fondo-ultimo.png) no-repeat;;*/
+    -webkit-border-radius: 0 14px 14px 0;
+    -moz-border-radius: 0 14px 14px 0;
+    -o-border-radius: 0 14px 14px 0;
+    -ms-border-radius: 0 14px 14px 0;
+    border-radius: 0 14px 14px 0;
+    -webkit-transition:background .5s;
+    -moz-transition:background .5s;
+    -o-transition:background .5s;
+    -ms-transition:background .5s;
+    transition:background .5s;
+    behavior: url(css/PIE.htc);
+}
+
+.tubito{
+    width: 21px;
+    height: 42px;
+    display: block;
+    margin: -80px 0 0 0;
+    padding: 0;
+    background: url(../img/tubito.png) no-repeat;
+    position: absolute;
+    left: 40%;
+    transition:margin .5s;
+    -webkit-transition:margin.5s;
+    -moz-transition:margin .5s;
+    -o-transition:margin .5s;
+    -ms-transition:margin .5s;
+}
+
+
+/*hover*/
+#menu ul.izq li:hover a, #menu ul.izq li:hover{
+    background: #E6BE15;
+    color:#FFFFFF;
+    /*font-size: 16px;
+    padding: 15px 15px 0 14px;*/
+}
+
+/*#menu ul.izq li a#primero:hover{
+    background: url(../img/fondo-hover-primero.png) no-repeat;
+    background: #E6BE15;
+    color:#FFFFFF;
+    /*-webkit-border-radius: 14px 0 0 14px;
+    -moz-border-radius: 14px 0 0 14px;
+    -o-border-radius: 14px 0 0 14px;
+    -ms-border-radius: 14px 0 0 14px;
+    border-radius: 14px 0 0 14px;
+    behavior: url(css/PIE.htc);
+}*/
+
+#menu ul.der li:hover a, #menu ul.der li:hover{
+    background: #E6BE15;
+    color:#FFFFFF;
+    /*font-size: 16px;
+    padding: 15px 14px 0 20px;*/
+}
+
+/*#menu ul.der li a#ultimo:hover{
+    background: url(../img/fondo-hover-ultimo.png) no-repeat;
+    background: #E6BE15;
+    color:#FFFFFF;
+    /*-webkit-border-radius: 0 14px 14px 0;
+    -moz-border-radius: 0 14px 14px 0;
+    -o-border-radius: 0 14px 14px 0;
+    -ms-border-radius: 0 14px 14px 0;
+    border-radius: 0 14px 14px 0;
+    behavior: url(css/PIE.htc);
+}*/
+
+/*
+#menu ul li:hover .tubito{
+    margin: -35px 0 0 0;
+}*/
+#menu ul li:hover a.activo{
+    background: #FFFFFF;
+    color:#1F4B89;
+  /* font-size: 14px;
+    padding: 15px 24px 0 24px;*/
+}
+
+/*activo*/
+#menu ul.izq li.activo, #menu ul.der li.activo{
+    background: #FFFFFF;
+    color:#1F4B89;
+}
+
+#menu ul.izq li a.activo, #menu ul.der li a.activo{
+    background: #FFFFFF;
+    color:#1F4B89;
+}
+
+#menu ul li.activo .tubito{
+    margin: -35px 0 0 0;
+}
+
+ /*#menu ul.izq li a#primero.activo{
+   background: url(../img/fondo-activo-primero.png) no-repeat;
+    background: #FFFFFF;
+    color:#1F4B89;
+    -webkit-border-radius: 14px 0 0 14px;
+    -moz-border-radius: 14px 0 0 14px;
+    -o-border-radius: 14px 0 0 14px;
+    -ms-border-radius: 14px 0 0 14px;
+    border-radius: 14px 0 0 14px;
+    behavior: url(css/PIE.htc);
+}*/
+
+/*#menu ul.der li a#ultimo.activo{
+    background: url(../img/fondo-activo-ultimo.png) no-repeat;
+    background: #FFFFFF;
+    color:#1F4B89;
+    -webkit-border-radius: 0 14px 14px 0;
+    -moz-border-radius: 0 14px 14px 0;
+    -o-border-radius: 0 14px 14px 0;
+    -ms-border-radius: 0 14px 14px 0;
+    border-radius: 0 14px 14px 0;
+    behavior: url(css/PIE.htc);
+}*/
+
+/*fin-menu*/
+
+
+
+
+
+
+
+
+
+section{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#integral{
+   background-image: url(../img/integral.jpg);
+   background-size: cover;
+}
+.text-box{
+    background-color: rgba(0, 0, 0, 0.41);
+    color: #fff;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 20px;
+}
